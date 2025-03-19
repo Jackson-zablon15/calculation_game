@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Game</title>
+</head>
+<body>
+    <main class="container">
+
+        <header class="top-container">
+            <div class="score-container">
+                <img src="./Assets/bolt-lightning-solid.svg" alt="">
+                <p class="score" id="score">0</p>
+            </div>
+
+            <nav class="navbar">
+                <img src="./Assets/bars-solid.svg" alt="" id="nav-icon">
+                <ul class="navbar-list" id="nav-list">
+                    <li id="easy">Easy</li>
+                    <li id="medium">Medium</li>
+                    <li id="hard">Hard</li>
+                    <hr/>
+                    <li id="addition">Addition</li>
+                    <li id="subtraction">Subtraction</li>
+                    <li id="multiplication">Multiplication</li>
+                    <li id="division">Division</li>
+                </ul>
+            </nav>
+    
+        </header>
+
+        <section class="time-container">
+            <span class="time" id="time">5</span>
+        </section>
+
+        <section class="game">
+            <div class="qns">
+                <span id="first-num">3</span>
+                <span id="operator">+</span>
+                <span id="second-num">3</span>
+            </div>
+
+            <div class="answers">
+                <button>6</button>
+                <button>7</button>
+                <button>5</button>
+                <button>9</button>
+            </div>
+        </section>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
